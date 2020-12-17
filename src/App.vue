@@ -3,6 +3,8 @@
     <Navbar/>
   </header>
     <p> wesh le sang de la veine </p>
+
+  <router-view></router-view>
 </template>
 
 <script>

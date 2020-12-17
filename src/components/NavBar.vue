@@ -5,7 +5,6 @@
     <div class="menu-item"><router-link to="/events">Evènements</router-link></div>
     <div class="menu-item"><router-link to="/debug">debug</router-link></div>
   </nav>
-  <router-view></router-view>
 </template>
 
 <script>

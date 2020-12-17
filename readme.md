@@ -1,5 +1,5 @@
-#WikiSpace
-##Installation
+# WikiSpace
+## Installation
 Pour installer le projet:
 ```bash
 npm i 

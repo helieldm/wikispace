@@ -4,7 +4,7 @@
 </template>
 
 
-<script>$.get('https://spacelaunchnow.me/api/3.3.0/astronaut/?limit=30', (data, status) => {console.log(data);})
+<script>//$.get('https://spacelaunchnow.me/api/3.3.0/astronaut/?limit=30', (data, status) => {console.log(data);})
 </script>
 
 

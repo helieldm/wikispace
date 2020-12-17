@@ -15,11 +15,6 @@ export default {
   name: 'App',
   components: {
     Navbar
-  },
-  methods: {
-    link() {
-      console.log(this.$route);
-    }
   }
 }
 

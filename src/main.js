@@ -4,7 +4,8 @@ import App from './App.vue'
 import './index.css'
 import debug from "./components/debug.vue"
 import home from "./components/home.vue"
-import eventVue from "./components/event.vue"
+import eventVue from "./components/events.vue"
+import vessels from "./components/vessels.vue"
 import astronauts from "./components/astronauts.vue";
 
 
@@ -14,6 +15,7 @@ const router = createRouter({
     routes: [
         {path: '/', component: home},
         {path: '/astronauts', component: astronauts},
+        {path: '/vessels', component: vessels},
         {path: '/debug', component: debug},
         {path: '/events', component: eventVue},
     ]

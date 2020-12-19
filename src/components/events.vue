@@ -1,8 +1,8 @@
 <template>
   <div>
   <event
-      v-for="shi in vessels"
-      :sh="shi" />
+      v-for="eve in events"
+      :ev="eve" />
   </div>
 </template>
 
@@ -10,13 +10,13 @@
 
 <script>
 
-import Ship from "./ship.vue";
+import Event from "./event.vue";
 import axios from 'axios';
 export default {
-  name: "vessels",
-  components: {Ship},
+  name: "events",
+  components: {Event},
   data() {
-    return { vessels: null}
+    return { events: null}
   },
   mounted()
   {
@@ -24,8 +24,8 @@ export default {
         .get('https://spacelaunchnow.me/api/3.3.0/spacecraft/?limit=30')
         .then((response) =>
         {
-          this.vessels = response.data.results;
-          console.log(this.vessels)
+          this.events = response.data.results;
+          console.log(this.events)
         });
   }
 }

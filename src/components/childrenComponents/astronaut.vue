@@ -45,5 +45,8 @@ img{
 span.agency
 {
   color:greenyellow;
+  background-color: rgb(30, 30, 30);
+  padding:2%;
+  border-radius: 0.5em;
 }
 </style>

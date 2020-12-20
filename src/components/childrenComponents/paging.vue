@@ -1,13 +1,13 @@
 <template>
   <footer>
 
-    <button :onclick="previousPage" :disabled="prevDisabled">Précédent</button>
+    <button :onclick="previousPage" :disabled="prevDisabled" id = "precedButton">Précédent</button>
     <div class="input">
       <input id="pages" name="page" type="number" min="1" :max="Math.ceil(list.count / 30)" ref="inputPage"/>
-      <label for="pages">{{ $route.query.page }}/{{ Math.ceil(list.count / 30) }}</label>
-      <button :onclick="goto">Go</button>
+      <label id = "pageLabel" for="pages">{{ $route.query.page }}/{{ Math.ceil(list.count / 30) }}</label>
+      <button :onclick="goto" id = "goButton">Go</button>
     </div>
-    <button :onclick="nextPage" :disabled="nextDisabled">Suivant</button>
+    <button :onclick="nextPage" :disabled="nextDisabled " id = "nextButton">Suivant</button>
 
   </footer>
 
@@ -78,5 +78,49 @@ export default {
 }
 footer {
   margin: 1% 0;
+}
+#precedButton
+{
+  background-color: rgb(50, 50, 50);
+  border-radius: 0.1em;
+  border: solid greenyellow 1px;
+  padding: 1%;
+  margin: 1%;
+  color: white;
+}
+#nextButton
+{
+  background-color: rgb(50, 50, 50);
+  border-radius: 0.1em;
+  border: solid greenyellow 1px;
+  padding: 1%;
+  margin: 1%;
+  color: white;
+}
+#goButton
+{
+  background-color: rgb(50, 50, 50);
+  border-radius: 0.1em;
+  border: solid greenyellow 1px;
+  padding: 1%;
+  margin: 1%;
+  color: white;
+}
+#pageLabel
+{
+   background-color: rgb(50, 50, 50);
+  border-radius: 0.1em;
+  border: solid greenyellow 1px;
+  padding: 1%;
+  margin: 1%;
+  color: white;
+}
+#pages
+{
+  background-color: rgb(50, 50, 50);
+  border: greenyellow 1px solid;
+  border-radius: 0.1em;
+  color: white;
+  padding: 1%;
 }
 </style>

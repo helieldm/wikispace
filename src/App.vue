@@ -32,7 +32,7 @@ body {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   background-color: #222;
   padding: 15px;
 }

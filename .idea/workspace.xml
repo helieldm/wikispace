@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="97c56d3a-7fe7-442e-8465-ca3001e45450" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/childrenComponents/paging.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/childrenComponents/paging.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/debug.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/vessels.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spacecrafts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +102,7 @@
       <workItem from="1607820266693" duration="1685000" />
       <workItem from="1607892811985" duration="8803000" />
       <workItem from="1608221154201" duration="9700000" />
-      <workItem from="1608472482035" duration="15412000" />
+      <workItem from="1608472482035" duration="17727000" />
     </task>
     <servers />
   </component>
@@ -107,22 +114,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607896955220" />
-    <state width="1877" height="193" key="GridCell.Tab.0.bottom" timestamp="1608490325032">
+    <state width="1877" height="193" key="GridCell.Tab.0.bottom" timestamp="1608495374731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608490325032" />
-    <state width="1877" height="193" key="GridCell.Tab.0.center" timestamp="1608490325032">
+    <state width="1877" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608495374731" />
+    <state width="1877" height="193" key="GridCell.Tab.0.center" timestamp="1608495374731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="193" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608490325032" />
-    <state width="1877" height="193" key="GridCell.Tab.0.left" timestamp="1608490325032">
+    <state width="1877" height="193" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608495374731" />
+    <state width="1877" height="193" key="GridCell.Tab.0.left" timestamp="1608495374730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="193" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608490325032" />
-    <state width="1877" height="193" key="GridCell.Tab.0.right" timestamp="1608490325032">
+    <state width="1877" height="193" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608495374730" />
+    <state width="1877" height="193" key="GridCell.Tab.0.right" timestamp="1608495374731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="193" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608490325032" />
+    <state width="1877" height="193" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608495374731" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1608490350341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -135,6 +142,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1608221204929" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608494086052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608494086052" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1607816397731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

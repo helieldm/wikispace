@@ -1,23 +1,19 @@
-import { createRouter, createWebHistory } from "vue-router";
-import { createApp } from 'vue'
+import {createRouter, createWebHistory} from "vue-router";
+import {createApp} from 'vue'
 import App from './App.vue'
 import './index.css'
-import debug from "./components/debug.vue"
-import home from "./components/home.vue"
 import events from "./components/events.vue"
-import vessels from "./components/vessels.vue"
+import spacecrafts from "./components/spacecrafts.vue"
 import astronauts from "./components/astronauts.vue";
 import e429 from "./components/e429.vue";
-
 
 
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        {path: '/', component: home},
+        {path: '/', redirect: "/astronauts"},
         {path: '/astronauts', component: astronauts},
-        {path: '/vessels', component: vessels},
-        {path: '/debug', component: debug},
+        {path: '/spacecrafts', component: spacecrafts},
         {path: '/events', component: events},
         {path: '/e429', component: e429}
     ]

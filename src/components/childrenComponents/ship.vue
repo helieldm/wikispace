@@ -1,7 +1,7 @@
 <template>
 <div class="shi">
-  <img :src="ev.image_url" alt="" />
-  <span>{{ev.name}}</span>
+  <img :src="sh.image_url" alt="" />
+  <span>{{sh.name}}</span>
 
 </div>
 </template>

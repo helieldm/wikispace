@@ -1,9 +1,16 @@
 <template>
+  <footer>
 
-  <button :onclick="previousPage" :disabled="prevDisabled">Précédent</button>
-  <input id="pages" name="page" type="number" minlength="1" maxlength="" />
-  <label for="pages">{{$route.query.page}}/{{list.count/30}}</label>
-  <button :onclick="nextPage" :disabled="nextDisabled">Suivant</button>
+    <button :onclick="previousPage" :disabled="prevDisabled">Précédent</button>
+    <div class="input">
+      <input id="pages" name="page" type="number" min="1" :max="Math.ceil(list.count / 30)" ref="inputPage"/>
+      <label for="pages">{{ $route.query.page }}/{{ Math.ceil(list.count / 30) }}</label>
+      <button :onclick="goto">Go</button>
+    </div>
+    <button :onclick="nextPage" :disabled="nextDisabled">Suivant</button>
+
+  </footer>
+
 
 </template>
 
@@ -57,11 +64,19 @@ export default {
       this.prevDisabled = !!!this.list.previous  // !(!!(this...))
       this.nextDisabled = !!!this.list.next // !!(variable) caste la variable en booléen.
 
+    }, goto() {
+      this.$router.push({path: 'astronauts', query: {page: this.$refs.inputPage.value }})
     }
   }
 }
 </script>
 
 <style scoped>
-
+.input {
+  display: inline;
+  margin: 1%;
+}
+footer {
+  margin: 1% 0;
+}
 </style>

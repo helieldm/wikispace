@@ -1,6 +1,6 @@
 <template>
 <div class="astro">
-  <img :src="ast.profile_image_thumbnail" alt="" />
+  <img :src="ast.profile_image_thumbnail" :alt="'image of ' + ast.name" />
   <p>
     <span class="name">
       {{ast.name}}

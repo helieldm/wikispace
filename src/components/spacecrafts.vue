@@ -1,8 +1,8 @@
 <template>
   <div>
-  <event
-      v-for="shi in vessels"
-      :sh="shi" />
+  <ship
+      v-for="ship in vessels"
+      :sh="ship" />
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 import Ship from "./childrenComponents/ship.vue";
 import axios from 'axios';
 export default {
-  name: "vessels",
+  name: "spacecrafts",
   components: {Ship},
   data() {
     return { vessels: null}

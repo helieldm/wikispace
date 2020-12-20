@@ -18,9 +18,20 @@ img{
   width: 64px;
   border-radius: 100%;
 }
-.astro{
+.shi{
+  background-color: rgb(50, 50, 50);
+  color:white;
   min-width: 20%;
   flex: 1;
-  margin: 1%  0 ;
+  margin: 1%  1%;
+  padding: 1%;
+  border: solid black 1px;
+}
+.shi:hover{
+  background: #CCC;
+}
+.shi p{
+  text-align: left;
+  margin: auto 5%;
 }
 </style>

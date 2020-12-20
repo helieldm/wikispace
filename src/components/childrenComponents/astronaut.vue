@@ -27,6 +27,8 @@ img{
   border-radius: 100%;
 }
 .astro{
+  background-color: rgb(50, 50, 50);
+  color:white;
   min-width: 20%;
   flex: 1;
   margin: 1%  1%;
@@ -39,5 +41,9 @@ img{
 .astro p{
   text-align: left;
   margin: auto 5%;
+}
+span.agency
+{
+  color:greenyellow;
 }
 </style>

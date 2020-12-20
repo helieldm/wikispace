@@ -2,7 +2,7 @@
 
   <button :onclick="previousPage" :disabled="prevDisabled">Précédent</button>
   <input id="pages" name="page" type="number" minlength="1" maxlength="" />
-  <label for="pages">{{$route.query.page}}/{{this.list.count/30}}</label>
+  <label for="pages">{{$route.query.page}}/{{list.count/30}}</label>
   <button :onclick="nextPage" :disabled="nextDisabled">Suivant</button>
 
 </template>

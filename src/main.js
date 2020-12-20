@@ -4,9 +4,10 @@ import App from './App.vue'
 import './index.css'
 import debug from "./components/debug.vue"
 import home from "./components/home.vue"
-import eventVue from "./components/events.vue"
+import events from "./components/events.vue"
 import vessels from "./components/vessels.vue"
 import astronauts from "./components/astronauts.vue";
+import e429 from "./components/e429.vue";
 
 
 
@@ -17,7 +18,8 @@ const router = createRouter({
         {path: '/astronauts', component: astronauts},
         {path: '/vessels', component: vessels},
         {path: '/debug', component: debug},
-        {path: '/events', component: eventVue},
+        {path: '/events', component: events},
+        {path: '/e429', component: e429}
     ]
 });
 

@@ -2,13 +2,11 @@
   <header>
     <Navbar/>
   </header>
-    <p> wesh le sang de la veine </p>
 
   <router-view></router-view>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue';
 
 export default {

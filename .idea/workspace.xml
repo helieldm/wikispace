@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="97c56d3a-7fe7-442e-8465-ca3001e45450" name="Default Changelist" comment="" />
+    <list default="true" id="97c56d3a-7fe7-442e-8465-ca3001e45450" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/e429.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/paging.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wikispace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wikispace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/astronaut.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/astronaut.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/astronauts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/astronauts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +25,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lZi9u7j6dmNTCmfALYbG1u3qE1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,18 +46,18 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\repos\wikispace2\node_modules\vue-router\dist" />
-      <recent name="D:\repos\wikispace2\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\repos\WikiSpace\src\components" />
       <recent name="D:\repos\WikiSpace\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\repos\wikispace2\node_modules\vue-router\dist" />
+      <recent name="D:\repos\wikispace2\src\components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -81,7 +98,9 @@
       <updated>1607810865945</updated>
       <workItem from="1607810866991" duration="8624000" />
       <workItem from="1607820266693" duration="1685000" />
-      <workItem from="1607892811985" duration="7659000" />
+      <workItem from="1607892811985" duration="8803000" />
+      <workItem from="1608221154201" duration="9700000" />
+      <workItem from="1608472482035" duration="14317000" />
     </task>
     <servers />
   </component>
@@ -93,33 +112,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607896955220" />
-    <state width="1877" height="193" key="GridCell.Tab.0.bottom" timestamp="1607900606452">
+    <state width="1877" height="193" key="GridCell.Tab.0.bottom" timestamp="1608488453148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607900606452" />
-    <state width="1877" height="193" key="GridCell.Tab.0.center" timestamp="1607900606451">
+    <state width="1877" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608488453148" />
+    <state width="1877" height="193" key="GridCell.Tab.0.center" timestamp="1608488453148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="193" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607900606451" />
-    <state width="1877" height="193" key="GridCell.Tab.0.left" timestamp="1607900606451">
+    <state width="1877" height="193" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608488453148" />
+    <state width="1877" height="193" key="GridCell.Tab.0.left" timestamp="1608488453148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="193" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607900606451" />
-    <state width="1877" height="193" key="GridCell.Tab.0.right" timestamp="1607900606452">
+    <state width="1877" height="193" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608488453148" />
+    <state width="1877" height="193" key="GridCell.Tab.0.right" timestamp="1608488453148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="193" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607900606452" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1607820957863">
+    <state width="1877" height="193" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608488453148" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1608484917070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607820957863" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608484917070" />
+    <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1608221204929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1608221204929" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1607816397731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607816397731" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1607898275370">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608489633194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607898275370" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608489633194" />
   </component>
 </project>

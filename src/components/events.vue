@@ -10,7 +10,7 @@
 
 <script>
 
-import Event from "./event.vue";
+import Event from "./childrenComponents/event.vue";
 import axios from 'axios';
 export default {
   name: "events",

@@ -10,7 +10,7 @@
 
 <script>
 
-import Ship from "./ship.vue";
+import Ship from "./childrenComponents/ship.vue";
 import axios from 'axios';
 export default {
   name: "vessels",

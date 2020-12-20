@@ -1,32 +1,50 @@
 <template>
   <div>
-  <astronaut
-      v-for="astro in astronautes"
-      :ast="astro" />
+    <astronaut
+        v-for="astro in astronautes.results"
+        :ast="astro"/>
   </div>
-</template>
 
+  <paging :list="astronautes"/>
+</template>
 
 
 <script>
 
-import Astronaut from "./astronaut.vue";
+import Astronaut from "./childrenComponents/astronaut.vue";
+import Paging from "./childrenComponents/paging.vue";
 import axios from 'axios';
+
 export default {
   name: "astronauts",
-  components: {Astronaut},
+  components: {Paging, Astronaut},
   data() {
-    return { astronautes: null}
+    return {
+      astronautes: {results: null}
+    }
   },
-  mounted()
-  {
-    axios
-        .get('https://spacelaunchnow.me/api/3.3.0/astronaut/?limit=30')
-        .then((response) =>
-        {
-          this.astronautes = response.data.results;
-          console.log(this.astronautes)
-        });
+  watch: {
+    "$route": "fetchData"
+  },
+  mounted() {
+    this.fetchData();
+  },
+  methods: {
+    getApiRqtUrl() {
+      return "https://spacelaunchnow.me/api/3.3.0/astronaut/?limit=30&offset=" + ((this.$route.query.page - 1) * 30)
+    },
+    fetchData() {
+      axios
+          .get(this.getApiRqtUrl())
+          .then((response) => {
+            this.astronautes = response.data;
+            console.log(this.astronautes)
+          })
+          .catch((error) => {
+            this.$router.push('/e429')
+          })
+      console.log(this.$route)
+    }
   }
 }
 
@@ -34,9 +52,8 @@ export default {
 </script>
 
 
-
 <style scoped>
-div{
+div {
   display: flex;
   flex-wrap: wrap;
 }

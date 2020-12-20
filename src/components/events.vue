@@ -21,7 +21,7 @@ export default {
   mounted()
   {
     axios
-        .get('https://spacelaunchnow.me/api/3.3.0/spacecraft/?limit=30')
+        .get('https://spacelaunchnow.me/api/3.3.0/event/?limit=30')
         .then((response) =>
         {
           this.events = response.data.results;

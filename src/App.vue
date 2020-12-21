@@ -29,6 +29,7 @@ export default {
 
 body {
   font-family: 'montserrat', sans-serif;
+  background-color: rgb(30, 30, 30);
 }
 
 header {

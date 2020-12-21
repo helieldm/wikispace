@@ -1,32 +1,48 @@
 <template>
   <div>
-  <ship
-      v-for="ship in vessels"
-      :sh="ship" />
+    <ship
+        v-for="ship in vessels.results"
+        :sh="ship"/>
   </div>
+  <Paging :list="vessels" type="spacecraft"/>
 </template>
-
 
 
 <script>
 
 import Ship from "./childrenComponents/ship.vue";
+import Paging from "./childrenComponents/paging.vue";
 import axios from 'axios';
+
 export default {
   name: "spacecrafts",
-  components: {Ship},
+  components: {Ship, Paging},
   data() {
-    return { vessels: null}
+    return {
+      vessels: {results: null},
+    }
   },
-  mounted()
-  {
-    axios
-        .get('https://spacelaunchnow.me/api/3.3.0/spacecraft/?limit=30')
-        .then((response) =>
-        {
-          this.vessels = response.data.results;
-          console.log(this.vessels)
-        });
+  watch: {
+    "$route": "fetchData"
+  },
+  mounted() {
+    this.fetchData();
+  },
+  methods: {
+    getApiRqtUrl() {
+      return "https://spacelaunchnow.me/api/3.3.0/spacecraft/?limit=30&offset=" + ((this.$route.query.page - 1) * 30)
+    },
+    fetchData() {
+      axios
+          .get(this.getApiRqtUrl())
+          .then((response) => {
+            console.log(response)
+            this.vessels = response.data;
+          })
+          .catch((error) => {
+            this.$router.push('/e429')
+          })
+    }
   }
 }
 
@@ -34,9 +50,8 @@ export default {
 </script>
 
 
-
 <style scoped>
-div{
+div {
   display: flex;
   flex-wrap: wrap;
 }

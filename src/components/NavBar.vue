@@ -1,8 +1,8 @@
 <template>
   <nav>
     <div class="menu-item"><router-link to="/astronauts?page=1">Astronautes</router-link></div>
-    <div class="menu-item"><router-link to="/spacecrafts">Vaisseaux</router-link></div>
-    <div class="menu-item"><router-link to="/events">Evènements</router-link></div>
+    <div class="menu-item"><router-link to="/spacecrafts?page=1">Vaisseaux</router-link></div>
+    <div class="menu-item"><router-link to="/events?page=1">Evènements</router-link></div>
   </nav>
 </template>
 

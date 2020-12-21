@@ -5,7 +5,7 @@
         :ast="astro"/>
   </div>
 
-  <paging :list="astronautes"/>
+  <paging :list="astronautes" type="astronaut"/>
 </template>
 
 

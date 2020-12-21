@@ -1,6 +1,5 @@
 <template>
 <div class="eve">
-  <img :src="ev.image_url" alt="" />
   <span>{{ev.name}}</span>
 
 </div>

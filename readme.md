@@ -10,4 +10,3 @@ Si vous voulez faire des liens de pages en pages: ne pas utiliser la balise `<a 
 
 Il faut quand même définir la route dans `main.js` et la vue (component) qui sera chargée une fois arrivé sur la page.  
 
-_Au 13/12 : attention, les vues marchent pas de ouf il faut faire en sorte que ça s'affiche pas dans la navbar_  
